@@ -1,0 +1,33 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "url": "/images/pinter/briefing.jpg"
+      },
+      {
+        "id": 2,
+        "url": "/images/pinter/kickoff.jpg"
+      },
+      {
+        "id": 3,
+        "url": "/images/pinter/kickoffHR.jpg"
+      },
+      {
+        "id": 4,
+        "url": "/images/pinter/CB.jpg"
+      },
+      {
+        "id": 5,
+        "url": "/images/pinter/fotbar.jpg"
+      },
+      {
+        "id": 6,
+        "url": "/images/pinter/grubsimul.jpg"
+      },
+      {
+        "id": 7,
+        "url": "/images/pinter/grubsimul2.jpg"
+      }
+    ]
+  }
+  

@@ -1,6 +1,6 @@
 <template>
-    <div class="aboutUs">
-        <h1 class="title font-bold mt-20">kolaborasi antara</h1>
+    <div class="aboutUs" id="aboutUs">
+        <h1 class="title font-bold">kolaborasi antara</h1>
         <div class="logo text-center">
             <img src="/images/cimbXbinus.png" alt="logo" class="h-auto w-auto mx-auto">
         </div>
@@ -25,5 +25,7 @@ export default {
 </script>
 
 <style>
-
+#aboutUs {
+    margin-top: 100px;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
-    <div class="aboutUs" id="aboutUs">
-        <h1 class="title font-bold">kolaborasi antara</h1>
-        <div class="logo text-center">
+    <div class="aboutUs mt-10" id="aboutUs">
+        <div id="about" class="logo text-center">
+            <h1 class="title font-bold">kolaborasi antara</h1>
             <img src="/images/cimbXbinus.png" alt="logo" class="h-auto w-auto mx-auto">
         </div>
         <div class="paragraf mx-40">
@@ -25,7 +25,5 @@ export default {
 </script>
 
 <style>
-#aboutUs {
-    margin-top: 100px;
-}
+
 </style>

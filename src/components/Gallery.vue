@@ -1,7 +1,7 @@
 <template>
   <div class="gallery mt-10 text-center" id="gallery">
     <h1 class="font-bold">Gallery PINTER</h1>
-    <a href="/detailGallery">
+    <a href="/GalleryPINTER">
         <img src="/images/pinter.png" alt="pinter" class="">
     </a>
 
@@ -53,5 +53,13 @@ export default {
     width: 100%;
     height: 300px;
     max-width: 500px;
+}
+
+.carousel-item {
+    transition: transform 0.3s ease-in-out; /* Menambahkan transisi */
+}
+
+.carousel-item:hover {
+    transform: scale(1.05); /* Memperbesar gambar saat dihover */
 }
 </style>

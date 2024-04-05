@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery mt-10 text-center" id="gallery">
+  <div class="gallery mt-10 text-center scroll-mt-20 mb-20" id="gallery">
     <h1 class="font-bold">Gallery PINTER</h1>
     <a href="/GalleryPINTER">
         <img src="/images/pinter.png" alt="pinter" class="">

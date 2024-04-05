@@ -1,6 +1,6 @@
 <template>
     <div class="aboutUs mt-10" id="aboutUs">
-        <div id="about" class="logo text-center">
+        <div id="about" class="logo text-center scroll-mt-20">
             <h1 class="title font-bold">kolaborasi antara</h1>
             <img src="/images/cimbXbinus.png" alt="logo" class="h-auto w-auto mx-auto">
         </div>

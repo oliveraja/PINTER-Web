@@ -1,5 +1,5 @@
 <template>
-  <div class="journey mt-10 text-center" id="journey">
+  <div class="journey mt-10 text-center scroll-mt-20" id="journey">
     <h1 class="font-bold">Journey PINTER</h1>
     <div class="timelineHorizontal mt-10 mx-auto">
         <ul class="timeline justify-center w-auto">

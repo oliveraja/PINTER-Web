@@ -5,6 +5,7 @@
     <AboutUs />
     <Journey />
     <Gallery />
+    <Footer />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import LandingPage from '@/components/LandingPage.vue'
 import AboutUs from '@/components/AboutUs.vue'
 import Journey from '@/components/Journey.vue'
 import Gallery from '@/components/Gallery.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'HomeView',
@@ -22,7 +24,8 @@ export default {
     LandingPage,
     AboutUs,
     Journey,
-    Gallery
+    Gallery,
+    Footer
   }
 };
 </script>

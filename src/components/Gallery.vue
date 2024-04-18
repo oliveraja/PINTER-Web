@@ -1,7 +1,7 @@
 <template>
   <div class="gallery mt-10 text-center scroll-mt-20 mb-20" id="gallery">
-    <h1 class="font-bold">Gallery PINTER</h1>
-    <a href="/GalleryPINTER">
+    <h1 class="font-bold text-xl">Gallery PINTER</h1>
+    <a href="/GalleryPINTER" class="inline-block transition-transform transform-gpu hover:scale-105">
         <img src="/images/pinter.png" alt="pinter" class="">
     </a>
 
@@ -35,6 +35,12 @@
         <div class="carousel-item">
             <img src="/images/pinter/grubsimul2.jpg" class="rounded-box landscape-image" />
         </div>
+    </div>
+
+    <div class="buttonAnggota mt-10">
+        <router-link to="/ListUser" class="bg-red-800 hover:bg-black text-white font-bold py-2 px-4 rounded">
+            Know Us More
+        </router-link>
     </div>
   </div>
 </template>

@@ -13,60 +13,13 @@
                     </svg>
                 </button>
             </div>
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('')">Briefing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('')">Kick Off</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('')">In Class Training</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('')">Project Simulation</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('')">On Job Training</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('')">Random Pics</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </nav>
 </template>
 
 <script>
 export default {
-    name: 'NavbarGallery',
-    data() {
-        return {
-            isScrolled: false
-        };
-    },
-    mounted() {
-        window.addEventListener('scroll', this.handleScroll)
-    },
-    destroyed() {
-        window.addEventListener('scroll', this.handleScroll)
-    },
-    methods: {
-        handleScroll(){
-            this.isScrolled = window.scrollY > 0;
-        },
-        scrollToSection(sectionId) {
-            var sectionElement = document.getElementById(sectionId);
-            if (sectionElement) {
-                sectionElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        },
-        scrollToTop() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    }
+    name: 'NavbarSecond'
 }
 </script>
 

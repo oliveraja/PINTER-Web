@@ -1,16 +1,16 @@
 <template>
-    <NavbarGallery />
+    <NavbarSecond />
     <DetailGallery />
 </template>
 
 <script>
-import NavbarGallery from '@/components/NavbarGallery.vue';
+import NavbarSecond from '@/components/NavbarGallery.vue';
 import DetailGallery from '@/components/DetailGallery.vue';
 
 export default {
     name: 'GalleryView',
     components: {
-        NavbarGallery,
+        NavbarSecond,
         DetailGallery
     }
 }

@@ -4,12 +4,26 @@
             <img src="/images/logo.png" class="h-8" alt="Logo">
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button @click="scrollToTop" type="button" class="text-white bg-red-800 hover:bg-black hover:text-white font-medium rounded-lg text-sm px-4 py-2 text-center">Back to Top</button>
-                <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                <button @click="toggleMenu" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <svg class="w-5 h-5" :class="{ 'rotate-90': isMenuOpen }" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                     </svg>
                 </button>
+
+                <div :class="{ 'block': isMenuOpen, 'hidden': !isMenuOpen }" class="items-center justify-between w-full md:hidden" id="navbar-sticky">
+                    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('about')">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('journey')">Journey</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-red-800 rounded md:bg-transparent md:p-0 hover:text-black" @click.prevent="scrollToSection('gallery')">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                 <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
@@ -33,7 +47,8 @@ export default {
     name: 'Navbar',
     data() {
         return {
-            isScrolled: false
+            isScrolled: false,
+            isMenuOpen: false
         };
     },
     mounted() {
@@ -54,7 +69,10 @@ export default {
         },
         scrollToTop() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+        },
+        toggleMenu() {
+        this.isMenuOpen = !this.isMenuOpen;
+    }
     }
 }
 </script>

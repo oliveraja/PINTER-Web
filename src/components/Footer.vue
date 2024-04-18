@@ -9,8 +9,8 @@
                         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CIMB Niaga x Binus University</span>
                     </a>
                 </div>
-                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 justify-end">
-                    <div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+                    <div class="">
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                         <ul class="text-gray-400 font-medium">
                             <li class="mb-4">
@@ -25,10 +25,10 @@
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="https://www.instagram.com/hycimbniaga/" class="hover:underline ">hycimbniaga</a>
+                                <a href="https://www.instagram.com/hycimbniaga/" class="hover:underline hover:text-white">hycimbniaga</a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/internshipbinus/" class="hover:underline">internshipbinus</a>
+                                <a href="https://www.instagram.com/internshipbinus/" class="hover:underline hover:text-white">internshipbinus</a>
                             </li>
                         </ul>
                     </div>

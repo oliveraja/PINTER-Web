@@ -1,6 +1,6 @@
 <template>
   <div class="journey mt-10 text-center scroll-mt-20" id="journey">
-    <h1 class="font-bold">Journey PINTER</h1>
+    <h1 class="font-bold text-xl">Journey PINTER</h1>
     <div class="timelineHorizontal mt-10 mx-auto">
         <ul class="timeline justify-center w-auto">
             <li>
@@ -45,7 +45,7 @@
     </div>
 
     <div class="detailTimeline mt-20">
-        <h1 class="font-bold">In Class Training PINTER ngapain aja??</h1>
+        <h1 class="font-bold text-lg">In Class Training PINTER ngapain aja??</h1>
         <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-10 mx-52">
             <li>
                 <!-- kiri -->

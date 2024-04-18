@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import GalleryView from '../views/GalleryView.vue'
+import ListUserView from '@/views/ListUserView.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/GalleryPINTER',
     name: 'galleryPINTER',
     component: GalleryView
+  },
+  {
+    path: '/ListUser',
+    name: 'listUser',
+    component: ListUserView
   }
 ]
 

@@ -2,31 +2,98 @@
     "images": [
       {
         "id": 1,
-        "url": "/images/pinter/briefing.jpg"
+        "url": "/images/pinter/briefing/briefing.jpg",
+        "title": "briefing"
       },
       {
         "id": 2,
-        "url": "/images/pinter/kickoff.jpg"
+        "url": "/images/pinter/kickoff/kickoff.jpg",
+        "title": "kickoff"
       },
       {
         "id": 3,
-        "url": "/images/pinter/kickoffHR.jpg"
+        "url": "/images/pinter/kickoff/kickoffHR.jpg",
+        "title": "kickoffHR"
       },
       {
         "id": 4,
-        "url": "/images/pinter/CB.jpg"
+        "url": "/images/pinter/ict/CB.jpg",
+        "title": "CB"
       },
       {
         "id": 5,
-        "url": "/images/pinter/fotbar.jpg"
+        "url": "/images/pinter/ict/fotbar.jpg",
+        "title": "fotbar"
       },
       {
         "id": 6,
-        "url": "/images/pinter/grubsimul.jpg"
+        "url": "/images/pinter/grubsimul/grubsimul.jpg",
+        "title": "grubsimul"
       },
       {
         "id": 7,
-        "url": "/images/pinter/grubsimul2.jpg"
+        "url": "/images/pinter/grubsimul/grubsimul2.jpg",
+        "title": "grubsimul2"
+      },
+      {
+        "id": 8,
+        "url": "/images/pinter/randomPics/badmin.jpg",
+        "title": "badmin"
+      },
+      {
+        "id": 9,
+        "url": "/images/pinter/randomPics/gempa.jpg",
+        "title": "gempa"
+      },
+      {
+        "id": 10,
+        "url": "/images/pinter/randomPics/nongki.jpg",
+        "title": "nongki"
+      },
+      {
+        "id": 11,
+        "url": "/images/pinter/randomPics/nongki2.jpg",
+        "title": "nongki2"
+      },
+      {
+        "id": 12,
+        "url": "/images/pinter/grubsimul/masYoga.jpg",
+        "title": "poto with masYoga"
+      },
+      {
+        "id": 13,
+        "url": "/images/pinter/ict/CB2.jpg",
+        "title": "poto sticky notes"
+      },
+      {
+        "id": 14,
+        "url": "/images/pinter/ict/cbLego1.jpg",
+        "title": "cbLego1"
+      },
+      {
+        "id": 15,
+        "url": "/images/pinter/ict/cbLego2.jpg",
+        "title": "cbLego2"
+      },
+      {
+        "id": 16,
+        "url": "/images/pinter/ict/cbLego3.jpg",
+        "title": "cbLego3"
+      },
+      {
+        "id": 17,
+        "url": "/images/pinter/ict/cbLego4.jpg",
+        "title": "cbLego4"
+      },
+      {
+        "id": 16,
+        "url": "/images/pinter/ict/kelas.jpg",
+        "title": "kelas"
+      },
+      {
+        "id": 17,
+        "url": "/images/pinter/ict/kelas2.jpg",
+        "title": "kelas2"
       }
     ]
   }

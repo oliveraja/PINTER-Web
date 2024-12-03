@@ -1,7 +1,7 @@
 <template>
     <div class="gallery mt-10 text-center scroll-mt-20 mb-20" id="gallery">
       <h1 class="font-bold text-xl">Gallery PINTER</h1>
-      <a href="/GalleryPINTER" class="inline-block transition-transform transform-gpu hover:scale-105">
+      <a href="/" class="inline-block transition-transform transform-gpu hover:scale-105">
           <img src="/images/pinter.png" alt="pinter" class="">
       </a>
   
